@@ -1,0 +1,19 @@
+h1{
+    background-color: purple;
+    color: gray;
+}
+
+h2{
+    background-color: gray;
+    color: purple;
+}
+
+h3{
+    background-color: aliceblue;
+    color: aqua;
+}
+
+p{
+    background-color: aquamarine;
+    color: bisque;
+}
