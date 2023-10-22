@@ -1,0 +1,29 @@
+section:nth-child(odd) {
+    background-color: black;
+    color: whitesmoke;
+}
+
+section:nth-child(even) {
+    background-color: rgb(224, 177, 120);
+    color: black;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 ,hr,body,p{
+    margin: 0px;
+}
+
+section{
+    height:25vh;
+}
+
+hr{
+    width: 33%;
+    border-color:darkred ;
+margin:auto
+}
+h1{
+    font-size: 2rem;
+}
