@@ -1,20 +1,8 @@
- h1{
-    font-style:italic;
-    color:black;
-    text-align: center;
-}
-
-
 p::first-letter{
     font-size: 60px;
-    text-decoration-line: underline overline;
-    text-decoration-thickness: from-font;
-text-decoration-color: green;
-color:black;
-font-weight: 800 ;
+    text-decoration: underline red;
+float: left;
 }
-
-
-
-
-
+.FW{
+    font-weight: bold;
+}
