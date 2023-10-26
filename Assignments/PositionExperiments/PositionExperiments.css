@@ -1,0 +1,53 @@
+.box{
+    position: relative;
+    margin-top: 20px; 
+    background-color: #f0f0f0; 
+    width: 50%;
+    box-shadow: 4px 4px 4px 4px gray;
+
+}
+
+.main{
+    position: relative;
+}
+
+h2{
+    position: absolute;
+    top: -35px;
+}
+
+p{
+    padding-top: 30px;
+}
+button{
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    right:0px;
+    z-index: 1;
+
+}
+.alert{
+    height: 140px;
+    width: 220px;
+    background-color:white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius:10px;
+}
+
+.video{
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.pr{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
