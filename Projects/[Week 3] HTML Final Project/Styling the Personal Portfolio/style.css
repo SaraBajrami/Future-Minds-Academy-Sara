@@ -90,11 +90,11 @@ img{
     width: 50%;
     text-align: center;
     border-style:groove;
-    background-color: rgb(212, 182, 130);
+    background: rgb(212, 182, 130);
    
 }
 .contact:hover .contact{
-    background-color: rgb(160, 120, 81);
+    background: rgb(160, 120, 81);
 }
 
 .connect{

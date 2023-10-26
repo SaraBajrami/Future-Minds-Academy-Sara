@@ -1,0 +1,31 @@
+
+        h1 {
+            background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+            color: rgb(16, 39, 59);
+            font-family: monospace;
+        }
+
+        p {
+            background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);;
+            color: rgb(9, 9, 9);
+            font-family: Arial, Helvetica, sans-serif;
+            word-spacing: 1px;
+        }
+
+        body {
+            background-image: url("background.jpg")
+        }
+        .dark{
+            color:rgb(27, 32, 90);
+        }
+        .light{
+            color:rgb(27, 32, 90) ;
+        }
+
+        .space{
+            color: rgb(27, 32, 90);
+        }
+        
+        .intro{
+            color:rgb(27, 32, 90);
+        }
