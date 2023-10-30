@@ -1,6 +1,6 @@
 body{
     background-image: url(../images/backgound.jpg);
-    cursor: url(../images/cursor-svgrepo-com.svg) 20 0, auto;
+    cursor: url(../images/cursor.svg) 20 0, auto;
 }
 
 li, a{
@@ -11,16 +11,21 @@ li, a{
 .navigation-menu{
     text-align: center;
     list-style-type: none;
-    border:3px color black;
+  
+}
+
+.navigation-menu a:hover{
+    cursor: url(../images/cursor-computer-mouse-svgrepo-com.svg) 20 0, auto;
 }
 
 .navigation-menu li{
     display: inline;
     box-shadow: inset;
-    background-color: rgb(212, 182, 130);
+    background: rgb(204,158,52);
+    background: linear-gradient(90deg, rgba(204,158,52,0.782125350140056) 9%, rgba(170,132,44,1) 39%, rgba(228,179,100,1) 84%);
     margin: 10px;
-    border-radius: 30px;
-    border-style: inset;
+    border-radius: 10px / 10px;
+    border-style:dashed ;
     padding: 4px;
 }
 
@@ -39,74 +44,69 @@ img{
 }
 
 #button{
-    background-color: rgb(212, 182, 130);
-    border-style:groove;
-    width: 20%;
-    margin: 0 auto;
-}
+    width: 70px;
+  background-color: rgb(rgb(228, 146, 14), rgb(168, 128, 28), rgb(197, 160, 52));
+    box-shadow: 3px 3px rgb(172, 116, 25), 1em 0 .5em rgb(211, 157, 18);
+    text-align: center;
+ }
 
 .button:hover{
-    background-color: rgb(160, 120, 81);
+    text-align: center;
+    background-color: rgb(249, 6, 6);
+    box-shadow: red;
+    border-style: dotted;
+
 }
 
+#project1{
+    width:350px;
+}
 .footer{
-    background-color: rgb(212, 182, 130);
+    background: rgb(204,158,52);
+    background: linear-gradient(90deg, rgba(204,158,52,0.782125350140056) 9%, rgba(170,132,44,1) 39%, rgba(228,179,100,1) 84%);
     border-style:groove;
     text-align: center;
-    margin: 0 auto;
+    margin: 20px 150px;
+    padding: 0px;
 }
 
 .footer:hover{
     background-color: rgb(160, 120, 81);
+    color: red;
+    border-style: dotted;
 }
 
 .card{
-    width: 50%;
-    text-align: center;
-    border-style:groove;
-    background-color: rgb(212, 182, 130);
-    margin: 0 auto;
+    background: rgb(204,158,52);
+background: linear-gradient(90deg, rgba(204,158,52,0.782125350140056) 9%, rgba(170,132,44,1) 39%, rgba(228,179,100,1) 84%);
+    margin: 0px 200px;
+    padding: 10px;
+    border-radius: 15px;
 }
 
-.cardElements{
-    width: 50%;
-    text-align: center;
-    border-style:groove;
-    background-color: rgb(212, 182, 130);
-    margin: 0 auto;
-}
+.cardElements{ 
+    border-collapse: collapse;
+    border-style: groove;
+    display: inline-block;
 
-.card:hover .cardElements{
+}
+.elements{
+    background: rgb(117, 95, 43);
+    background: linear-gradient(90deg, rgba(204,158,52,0.782125350140056) 9%, rgba(170,132,44,1) 39%, rgba(228,179,100,1) 84%);
+        margin: 100 150px;
+        padding: 10px;
+        border-style:groove 100px rgb(125,90,50);
+}
+.card:hover{
     background-color: rgb(160, 120, 81);
-
+    border-style: dotted;
 }
 
 .project1{
-    width: 100%;
+    width: 100px;
     display: inline;
 }
 
-.contact{
-    width: 50%;
-    text-align: center;
-    border-style:groove;
-    background: rgb(212, 182, 130);
-   
-}
-.contact:hover .contact{
-    background: rgb(160, 120, 81);
-}
-
-.connect{
-    width: 50%;
-    text-align: center;
-    border-style:groove;
-    background-color: rgb(212, 182, 130);
-}
-
-.connect:hover .connect{
-    background-color: rgb(160, 120, 81);
-}
 
 
 
