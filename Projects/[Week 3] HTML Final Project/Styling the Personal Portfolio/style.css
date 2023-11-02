@@ -15,7 +15,7 @@ li, a{
 }
 
 .navigation-menu a:hover{
-    cursor: url(../images/cursor-computer-mouse-svgrepo-com.svg) 20 0, auto;
+    cursor: url(../images/cursor.svg) 20 0, auto;
 }
 
 .navigation-menu li{
@@ -47,7 +47,7 @@ img{
     width: 70px;
   background-color: rgb(rgb(228, 146, 14), rgb(168, 128, 28), rgb(197, 160, 52));
     box-shadow: 3px 3px rgb(172, 116, 25), 1em 0 .5em rgb(211, 157, 18);
-    text-align: center;
+    margin: 0 auto;
  }
 
 .button:hover{
@@ -82,11 +82,11 @@ background: linear-gradient(90deg, rgba(204,158,52,0.782125350140056) 9%, rgba(1
     margin: 0px 200px;
     padding: 10px;
     border-radius: 15px;
+    text-align: center;
 }
 
 .cardElements{ 
     border-collapse: collapse;
-    border-style: groove;
     display: inline-block;
 
 }
@@ -106,8 +106,3 @@ background: linear-gradient(90deg, rgba(204,158,52,0.782125350140056) 9%, rgba(1
     width: 100px;
     display: inline;
 }
-
-
-
-
-

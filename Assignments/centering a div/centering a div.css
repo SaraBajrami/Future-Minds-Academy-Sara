@@ -1,0 +1,12 @@
+body{
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border: 1px solid black;
+    margin: auto;
+    background-color: white;
+}

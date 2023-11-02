@@ -1,0 +1,53 @@
+.card{
+    background-color: red;
+    border: 2px solid black;
+width: 250px;
+height: 400px;
+box-shadow:10px 10px 10px lightgrey ;
+}
+.card-header{
+    display: flex;
+   flex-direction: row;
+   background-color: white;
+   text-align: center;
+}
+.card-date{
+    width: 50%;
+    border-right: 2px solid black;
+}
+.card-price{
+    width: 50%;
+display: flex;
+flex-direction: column;
+}
+
+
+p,h2{
+    margin: auto 0;
+}
+
+.image1{
+    width: 100%;
+    background-color: blue;
+}
+
+.image{
+    width: 100%;
+}
+
+.card-body-paragraf{
+    color: white;
+    width: 100px;
+    
+}
+
+.card-body{
+    border-top: 2px solid black;
+}
+
+main{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+

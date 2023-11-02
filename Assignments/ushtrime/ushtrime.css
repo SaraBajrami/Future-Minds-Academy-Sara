@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.leo{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.leon{
+    width: 25%;
+    height: 50px;
+    background-color: yellow;
+}
