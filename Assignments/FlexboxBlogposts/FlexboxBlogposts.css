@@ -4,28 +4,69 @@ padding: 0;
 font-family: 'Alumni Sans Collegiate One', sans-serif;
 font-family: 'Nosifer', sans-serif;
 font-family: 'Poppins', sans-serif;
+height: 100vh;
 }
 
 .leftSide{
 background-color: rgb(63, 70, 115);
+color: whitesmoke;
 text-align:right;
 display: flex;
 flex-direction: column;
 align-items: flex-end;
 justify-content: center;
-padding: 25px;
-width: 450px;
-
+padding:3rem;
+margin: 0;
+height: 100vh;
 }
 
+.leftSideParagraph{
+    color: rgb(111, 157, 175);
+    margin: 0;
+}
 
 .leftSideTitle{
     display: flex;
 float: inline-end;
+margin:0;
+
 }
 button{
-width: 70px;
+width:70px;
 float: right;
+color: rgb(111, 157, 175);
+background-color:rgb(63, 70, 115) ;
+margin: 0;
+}
+main{
+    padding: 40px;
+}
+
+.card{
+    margin-bottom: 60px;
+}
+
+.cardTitle{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+.cardCss{
+    background-color:rgb(85, 218, 85);
+    color: aliceblue;
+    padding:0 7px;
+}
+.cardSubTitle{
+margin: 0;
+padding: px;
+}
+hr{
+    margin-bottom: 10;
+}
+.cardHtml{
+    background-color:skyblue;
+    color: aliceblue;
+    padding:0 5px;
 }
 .body{
 display: flex;
@@ -34,27 +75,23 @@ height: 100vh;
 
 .post{
     margin:0;
-    
-}
-.bold{
-    font-size: 30px;
-    font-weight: bold;
-}
-.css{
-    background-color:rgb(85, 218, 85);
-    color: aliceblue;
+    padding: 40px;    
+ }
+.cardName{
+    margin: 0;
 }
 h6{
     color: lightgrey;
 }
-.html{
-    background-color:skyblue;
-    color: aliceblue;
-}
-.john{
+.cardHtmlCss{
     color: skyblue;
 }
-.cat{
+.cardJava{
+    background-color: rgb(192, 49, 49);
+    color: white;
+    padding:0 5px;
+}
+.cardProfile{
 float:inline-end ;
 border-radius: 80% ;
 width: 50px;
