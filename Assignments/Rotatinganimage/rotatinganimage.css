@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(225, 203, 177);
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+   filter: blur(5px);
+   transition: filter .3s, rotate .3s , scale .4s, transform-origin .3s ;
+   
+}
+
+img:hover{
+    filter: blur(0);
+    rotate: 360deg;
+    scale: 1.5;
+    transform-origin: 50% 70%;
+}
+
