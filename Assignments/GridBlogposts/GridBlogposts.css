@@ -1,9 +1,104 @@
+
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Alumni Sans Collegiate One', sans-serif;
-    font-family: 'Nosifer', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: auto 1fr;
     height: 100vh;
+    overflow: hidden;
+
+}
+
+aside{
+    background-color: rgb(9, 41, 96);
+    color: white;
+padding: 3rem;
+width: 100px;
+text-align: right;
+
+}
+
+.leftSide{
+    position: fixed;
+    top: 200px;
+}
+
+.Title{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+main{
+    background-color: rgb(254, 253, 253);
+    margin: 10px 80px;
+    padding: 20px 10px;
+}
+
+
+    
+    .leftSideParagraph{
+        color: rgb(111, 157, 175);
+        margin: 0;
     }
     
+    .leftSideTitle{
+    margin:0;
+    
+    }
+    button{
+    width:70px;
+    color: rgb(111, 157, 175);
+    background-color:rgb(63, 70, 115) ;
+    }
+
+.card{
+    margin-bottom: 60px;
+}
+
+.cardTitle{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+.cardCss{
+    background-color:rgb(85, 218, 85);
+    color: aliceblue;
+    padding:0 7px;
+}
+.cardSubTitle{
+margin: 0;
+padding: px;
+}
+hr{
+    margin-bottom: 10;
+}
+.cardHtml{
+    background-color:skyblue;
+    color: aliceblue;
+    padding:0 5px;
+}
+
+.cardName{
+    margin: 0;
+}
+h6{
+    color: lightgrey;
+}
+.cardHtmlCss{
+    color: skyblue;
+}
+
+.cardProfile{
+    border-radius: 80% ;
+    width: 50px;
+    height: 50px;
+    }
+
+    .cardJava{
+        background-color: red;
+        color: white;
+        padding: 0 7px;
+    }
