@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard</title>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -117,24 +118,25 @@
             </span>
         </div>
     </aside>
-    <div class="RightContent">
+    <div class="rightContent">
         <header>
             <div class="mainContent">
-                <div class="header">
-                    <span class="material-symbols-outlined more" title="See More">
+                <div class="dFlex">
+                    <span class="material-symbols-outlined more dFlex justifyContentCenter alignItemsCenter"
+                        title="See More">
                         more_vert
                     </span>
                     <p>Dashboard</p>
                 </div>
                 <div class="mainContent">
 
-                    <label for=""></label>
-                    <input type="text" placeholder="Search">
-                    <span class="material-symbols-outlined more" title="Search">
+                    <input type="text" placeholder="Search" class="margin0">
+                    <span class="material-symbols-outlined  more dFlex justifyContentCenter alignItemsCenter margin0"
+                        title="Search">
                         search
                     </span>
 
-                    <span class="material-symbols-outlined " title="Dashboard">
+                    <span class="material-symbols-outlined  " title="Dashboard">
                         dashboard
                     </span>
 
@@ -143,15 +145,15 @@
                             notifications
                         </span>
                         <p class="notificationNumber">5</p>
-                        <div class="notificationMsg">
-                            <p>John Doe sent a message</p>
-                            <p>Someone viewed you profile</p>
-                            <p>John Doe sent a message</p>
-                            <p>Someone viewed you profile</p>
-                            <p>Another notification</p>
+                        <div class="notificationMsg margin0">
+                            <p class="margin0">John Doe sent a message</p>
+                            <p class="margin0">Someone viewed you profile</p>
+                            <p class="margin0">John Doe sent a message</p>
+                            <p class="margin0">Someone viewed you profile</p>
+                            <p class="margin0">Another notification</p>
                         </div>
                     </div>
-                    <span class="material-symbols-outlined main" title="Profile">
+                    <span class="material-symbols-outlined " title="Profile">
                         person
                     </span>
 
@@ -160,7 +162,193 @@
         </header>
         <hr>
 
+        <div class="card">
+            <div class="">
+                <div class="mainParagraph">
+                    <p>Global Sales by Top Locations</p>
+                </div>
+                <div class="mainnGlobal">
+                    <span class="material-symbols-outlined">
+                        language
+                    </span>
+                </div>
+            </div>
 
+            <div class="cardTable">
+                <table>
+                    <tr>
+                        <td><img src="./images/us.svg">USA</td>
+                        <td>2.920</td>
+                        <td>53.23%</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="./images/de.svg">Germany</td>
+                        <td>1.300</td>
+                        <td>4.34%</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="./images/au.svg">Australia</td>
+                        <td>760</td>
+                        <td>20.43%</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="./images/gb.svg">United Kingdom</td>
+                        <td>690</td>
+                        <td>10.35%</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="./images/ro.svg">Romania</td>
+                        <td>600</td>
+                        <td>7.87%</td>
+                    </tr>
+
+                    <tr>
+                        <td> <img src="./images/br.svg">Brasil</td>
+                        <td>550</td>
+                        <td>5.94%</td>
+                    </tr>
+                </table>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1701702401713!5m2!1sen!2s"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+        </div>
+        <div class="maingrid">
+            <div class="card">
+                <div class="dFlex justifyContentSpaceBetween">
+                    <div class="maingridicon bgOrange">
+                        <span class="material-symbols-outlined">
+                            chair
+                        </span>
+                    </div>
+                    <div class="maingridtext dFlex ">
+                        <p>Bookings</p>
+                        <h3 class="margin0">184</h3>
+                    </div>
+                </div>
+                <hr>
+                <div class="mainGridCardButtom">
+                    <span class="material-symbols-outlined">
+                        warning
+                    </span>
+                    <p>Get more space</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="dFlex justifyContentSpaceBetween">
+                    <div class="maingridicon bgPink">
+                        <span class="material-symbols-outlined">
+                            signal_cellular_alt
+                        </span>
+                    </div>
+                    <div class="maingridtext">
+                        <p>Website Visits</p>
+                        <h3 class="margin0">75.521</h3>
+                    </div>
+                </div>
+                <hr>
+                <div class="mainGridCardButtom">
+                    <span class="material-symbols-outlined">
+                        sell
+                    </span>
+                    <p>Tracked from Google Analytics</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="dFlex justifyContentSpaceBetween">
+                    <div class="maingridicon bgGreen">
+                        <span class="material-symbols-outlined">
+                            store
+                        </span>
+                    </div>
+                    <div class="maingridtext">
+                        <p class="">Revenue</p>
+                        <h3 class="margin0">$34,245</h3>
+                    </div>
+                </div>
+                <hr>
+                <div class="mainGridCardButtom">
+                    <span class="material-symbols-outlined">
+                        date_range
+                    </span>
+
+                    <p>Last 24 Hours</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="dFlex justifyContentSpaceBetween">
+                    <div class="maingridicon bgBlue">
+                        <span class="material-symbols-outlined">
+                            public
+                        </span>
+                    </div>
+                    <div class="maingridtext">
+                        <p>Followers</p>
+                        <h3 class="margin0">+245</h3>
+                    </div>
+                </div>
+                <hr>
+                <div class="mainGridCardButtom">
+                    <span class="material-symbols-outlined">
+                        update
+                    </span>
+                    <p>Just Updated</p>
+                </div>
+            </div>
+        </div>
+        <h3>Manage Listing</h3>
+        <div class="listing">
+            <div class="listingCard">
+                <div class="listingCardHover fDirectionColumn dFlex justifyContentCenter alignItemsCenter">
+                    <img src="./images/card-1.jpeg" class="listingCardImage ">
+                    <div class="dFlex">
+                        <span class="material-symbols-outlined">
+                            edit
+                            </span>
+                            <span class="material-symbols-outlined">
+                                close
+                                </span>
+                    </div>
+                </div>
+                <div>
+                    <h4>Cozy 5 Stars Apartment</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, pariatur voluptates. Sunt harum
+                        debitis nobis.</p>
+                </div>
+            </div>
+            <div class="listingCard">
+                <div class="dFlex justifyContentCenter">
+                    <img src="./images/card-1.jpeg" class="listingCardImage">
+                    
+                </div>
+                <div class="listingCardText">
+                    <h4>Cozy 5 Stars Apartment</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, pariatur voluptates. Sunt harum
+                        debitis nobis.</p>
+                </div>
+            </div>
+            <div class="listingCard">
+                <div class="dFlex justifyContentCenter">
+                    <img src="./images/card-1.jpeg" class="listingCardImage">
+                </div>
+                <div>
+                    <h4>Cozy 5 Stars Apartment</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, pariatur voluptates. Sunt harum
+                        debitis nobis.</p>
+                </div>
+            </div>
+
+        </div>
     </div>
 </body>
 
