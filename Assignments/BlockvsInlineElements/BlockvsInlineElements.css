@@ -1,4 +1,10 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
 .inline {
-    display: inline; 
+    display:inline; 
     margin: 0; 
 }

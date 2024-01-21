@@ -1,42 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
 <body>
-    <table border="1" width="50%">
-        <tr>
-            <th rowspan="5">1
+    <script>
+          let answer = Math.floor(Math.random() * 6 + 1);
 
-            </th>
-            <th>2</th>
-            <th>3</th>
-        </tr>
-        <tr>
-            <th>4</th>
-            <th>5</th>
+let guess = parseInt(prompt(`Shenoni nje numer mes 1 dhe 6`));
+if (guess >= 1 && guessc <= 6) {
+    if (guess == answer) {
+        alert(`Congratulations`);
+    }
 
-        </tr>
-        <tr>
-            <th>7</th>
-            <th>8</th>
+    else {
+        alert(`incorrect! the correct answer was ${answer}`);
+    }
+}
+else {
+    alert(`error`);
+}
 
-        </tr>
-        <tr>
-            <th>10</th>
-            <th>11</th>
 
-        </tr>
-        <tr>
-            <th>13</th>
-            <th>14</th>
-
-        </tr>
-    </table>
+        let email=prompt(`...`);//filam@gmail.com
+        let username=prompt(`...`);//filan
+        let password=prompt(`...`);//
+        //password i duhur eshte admin ose administrator    
+        
+                let password = prompt(`Your password:`);
+        
+                if(password==`12341234`){
+                    console.log(`welcome`);
+                }
+          
+        
+                //
+                let temeprature=24;
+                let description;
+        
+                if(temeprature <=0){
+                    description = `Freezing`;
+                }
+        //temperatura eshte ma e madhe se 0
+        
+        else if(temeprature <5){
+            description = `Very Cold`;
+        }
+        else if(temeprature <10){
+            description = `Cold`;
+        }
+        else if(temeprature <18){
+            description = `Mild`;
+        }
+        else if(temeprature <24){
+            description = `Hot`;
+        }
+        else if(temeprature <30){
+            description = `Very Hot`;
+        }
+        else{
+            description = `Dont go outside`;
+        }
+        
+        console.log(`description`)
+        
+        //shumfishi i 4shit dmth 0 4 8 12 
+        //nese eshte viti 100 nuk eshte vit i brisht
+        //nese eshte vit 400 eshte
+        let viti=parseInt (prompt(`shkruani vitin##`));
+        
+        if(){
+            alert(`viti ${viti}`eshte viti i brisht);
+        }
+        
+        else(){
+            alert(`viti ${viti}` nuk eshte viti i brisht)
+        }
+        
+        //mi mar 3 numra prejnuser
+        
+        let a = parseInt(prompt(`numri i poare`));
+        let b = parseInt(prompt(`numri i poare`));
+        let c = parseInt(prompt(`numri i poare`));
+        
+        console .log
+            </script>
 </body>
-
 </html>
