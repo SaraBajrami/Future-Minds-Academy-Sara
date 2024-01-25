@@ -15,6 +15,7 @@ aside{
 padding: 3rem;
 width: 100px;
 text-align: right;
+
 }
 
 .leftSide{
@@ -100,20 +101,4 @@ h6{
         background-color: red;
         color: white;
         padding: 0 7px;
-    }
-
-
-    @media (max-width: 1000px) {
-        body{
-            grid-template-columns: 1fr;
-        }
-
-        .leftSide{
-            position: relative;
-            top: 0px;
-        }
-
-        aside{
-        width: 100%;
-        }
     }

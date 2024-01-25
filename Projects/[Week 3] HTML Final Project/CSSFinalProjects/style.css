@@ -234,6 +234,7 @@ input:focus {
   padding: 5px;
   background-color: rgb(255, 255, 255);
   z-index: 9;
+  
 }
 
 .notificationMsg p:hover {

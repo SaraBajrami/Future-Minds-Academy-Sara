@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Largest of three numbers</title>
+</head>
+
+<body>
+    <script>
+        let a = parseFloat(prompt("Shenoni numrin e pare"));
+        let b = parseFloat(prompt("Shenoni numrin e dyte"));
+        let c = parseFloat(prompt("Shenoni numrin e trete"));
+
+        let numriMeIMadh = a;
+
+        if (b > numriMeIMadh) {
+            numriMeIMadh = b;
+        }
+
+        if (c > numriMeIMadh) {
+            numriMeIMadh = c;
+        }
+
+
+        alert(`Numri më i madh është ${numriMeIMadh}`);
+    </script>
+
+</body>
+
+</html>
